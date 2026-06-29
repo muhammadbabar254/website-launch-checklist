@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Launch Checklist Pro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>🚀 Website Launch Checklist</h1>
+        <p>Track everything before launching your website</p>
+    </div>
+
+    <!-- CARD -->
+    <div class="card">
+
+        <!-- PROGRESS -->
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <div class="progress-text" id="progressText">0% Completed</div>
+
+        <!-- TASKS -->
+        <div class="tasks">
+
+            <label class="task"><input type="checkbox" class="check"> SEO meta tags added</label>
+            <label class="task"><input type="checkbox" class="check"> Responsive design tested</label>
+            <label class="task"><input type="checkbox" class="check"> Images optimized</label>
+            <label class="task"><input type="checkbox" class="check"> Website speed optimized</label>
+            <label class="task"><input type="checkbox" class="check"> Broken links fixed</label>
+            <label class="task"><input type="checkbox" class="check"> SSL installed</label>
+            <label class="task"><input type="checkbox" class="check"> Cross-browser tested</label>
+            <label class="task"><input type="checkbox" class="check"> JS errors fixed</label>
+            <label class="task"><input type="checkbox" class="check"> Analytics setup</label>
+            <label class="task"><input type="checkbox" class="check"> Backup system ready</label>
+
+        </div>
+
+        <!-- ACTION BUTTONS -->
+        <button onclick="printChecklist()">🖨️ Print / Save PDF</button>
+        <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
